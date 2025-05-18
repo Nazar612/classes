@@ -1,0 +1,63 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ ul, ol {
+    list-style: none;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+
+ header {
+   padding:15px 0;
+ }
+.logo {
+   margin-right: 35px;
+   font-size: 30px;
+}
+
+ .list {
+   display: flex;
+   margin-right: 30px;
+ }
+
+ .contacts {
+   display: flex;
+ }
+
+ .li:not(:last-child) {
+   margin-right: 15px;
+ }
+
+ .contact-li:not(:last-child) {
+   margin-right: 10px;
+ }
+
+ .div {
+   display: flex;
+   justify-content: center;
+ }
+
+.a {
+   color: gray;
+}
+
+ .button {
+   background-color: yellow;
+   height: 30px;
+   border-radius: 3px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ .container {
+   width: 1200px;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+

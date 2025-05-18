@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.list {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    /* Робить однакові відступи між елементами */
+    /* flex-direction: column;  змінює напрямок */
+     /* align-items: center; Змінює тип с права на ліво, на зверху в низ  */
+     /* align-items:stretch; розтягує елементи */
+     /* align-items: baseline; вирівнює контент у висоті */
+
+     /* flex-wrap: ; переносе рядки */
+     flex-wrap: wrap;
+     /* align-content: ;
+     теж саме що align-items
+     тільки впливає більше чим на один рядок */
+    
+}

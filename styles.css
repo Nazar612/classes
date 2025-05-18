@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+    display: flex;
+}
+
+.a {
+    color: gray;
+}
+
+
+.a:hover {
+    color: cornflowerblue;
+}
+
+ul {
+    display: flex;
+}
+
+.li:first-child {
+    margin-left: 168px;
+}
+
+.li{
+    margin-right: 99px;
+}
+
+
+
+.container {
+    width: 936px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+

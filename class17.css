@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.list {
+  display: grid;
+  /* display: grid; даєтся на батьківський елемент (список, або дів) */
+  /* grid-template-columns: ; налаштування кількості колонок та їх розмір */
+  /* grid-template-columns: 420px 420px; */
+  grid-template-columns: repeat(2, 420px);
+  grid-template-rows:repeat(3. 546px);
+  grid-auto-rows: 546px;
+  column-gap: 20px;
+  
+  row-gap: 500px;
+}
+
+li {
+  background-color: black;
+}
+
+img {
+  display: block;
+  width:200px;
+  height: 200px;
+}

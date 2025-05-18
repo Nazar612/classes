@@ -1,0 +1,32 @@
+img {
+    height: 300px;
+    width: 200px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows:repeat(5, 312px);
+    grid-auto-rows: 312px;
+    column-gap: 56px;
+    row-gap: 50px;
+    justify-content: center;
+    align-content:center ;
+}

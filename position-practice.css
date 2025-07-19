@@ -1,0 +1,12 @@
+.lb {
+    position: relative;
+}
+
+.sp {
+    position:absolute;
+    right: 0;
+}
+
+.inp:focus .sp {
+    top: -10px;
+}

@@ -1,0 +1,40 @@
+.svg1:hover {
+fill: darkblue;
+stroke:red;
+stroke-width: 0.1px;
+}
+
+.svg2:hover{
+    fill: darkcyan;
+    stroke:palevioletred;
+stroke-width: 0.1px;
+}
+
+.svg3:hover{
+    fill: aquamarine;
+    stroke:purple;
+stroke-width: 0.1px;
+}
+
+.svg4:hover {
+    fill: aqua;
+    stroke:plum;
+stroke-width: 0.1px;
+}
+
+.svg5:hover{
+    fill:yellow;
+    stroke:violet;
+stroke-width: 0.1px;
+}
+
+.svg6:hover{
+    fill: yellowgreen;
+    stroke:blue;
+stroke-width: 0.1px;
+}
+
+.svg {
+height: 100px;
+
+}

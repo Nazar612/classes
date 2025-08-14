@@ -1,0 +1,15 @@
+.list {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.svg {
+    fill: red; /* color */
+    stroke: blue; /* border */
+stroke-width: 0.1px;
+stroke-opacity: 1;
+height: 50px;
+width:50px;
+}

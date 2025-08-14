@@ -1,0 +1,30 @@
+.img {
+    height: 150px;
+    width:119px;
+    display: block;
+    position: relative;
+}
+
+.holder {
+    width: 120px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    border:solid 1px red;
+}
+
+.b {
+    margin-bottom: 5px; 
+}
+
+.holder2 {
+    position: relative;
+    z-index: -1;
+    bottom: 60px;
+}
+
+.holder:hover .holder2 {
+    z-index: 2;
+    top: 1px;
+    transition: 1s ease-in-out;
+}

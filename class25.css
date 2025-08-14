@@ -1,0 +1,14 @@
+.icon1::before {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 80px;
+
+    background-color: blueviolet;
+    background-image: url(./assets/svg/Group\ \(2\).svg);
+    background-size: 70px 60px;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+

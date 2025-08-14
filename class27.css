@@ -1,0 +1,46 @@
+body {
+    height: 10000px;
+    background-color:red ;
+}
+
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+
+.is-hidden {
+pointer-events: none;
+visibility: hidden;
+}
+
+.open {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid 1px pink;
+    background-color: green;
+}
+
+.open:hover {
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+}
+
+

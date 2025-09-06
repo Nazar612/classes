@@ -1,0 +1,72 @@
+.ball {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: violet;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation-name: ballMove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    top: 50%;
+    left: 0%;
+}
+
+@keyframes ballMove {
+    0% {
+        left: 0%;
+        background-color: violet;
+    }
+
+    30% {
+        top: 50% ;
+        background-color: yellow;
+    }
+
+    35% {
+        top: 30%;
+        background-color: yellowgreen;
+    }
+
+    40% {
+        top:50%;
+        background-color: green;
+    }
+
+
+
+     50% {
+        top: 50% ;
+        background-color:  purple;
+    }
+
+    55% {
+        top: 30%;
+        background-color: tomato;
+    }
+
+    60% {
+        top:50%;
+        background-color: orange;
+    }
+
+    70% {
+        top: 50%;
+    }
+
+    75% {
+        top: 30px;
+    }
+
+    80% {
+        top: 50%;
+        background-color:orangered;
+    }
+
+    100%{
+        left: 100%;
+        background-color: red;
+    }
+}
